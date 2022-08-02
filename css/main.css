@@ -1,0 +1,130 @@
+/* Color scheme
+#daa520 - golden yellow
+#002500 - dark green
+#38785e - emerald
+*/
+
+body {
+    font-family: 'Overpass', sans-serif;;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Benne', serif;
+}
+
+#mast-heading {
+    display: inline-block;
+    margin: 0;
+    padding-top: 0.5rem;
+    color: #daa520;
+    font-size: 1rem;
+}
+
+#mast-img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.nav-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.controls {
+    padding-bottom: 1rem;
+}
+.button-ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.button-ul li {
+   list-style-type: none;
+   display: inline;
+   margin: 0 auto;
+   justify-content: center;
+   text-align: center;
+}
+
+button {
+    margin-top: 0,5rem;
+    margin-bottom: 0.5rem;
+    color: whitesmoke;
+    background-color: rgb(0, 37, 0);
+    padding: 0.25rem;
+    font-size: 1rem;
+}
+
+.dynamic-content {
+    padding: 2rem;
+    background-color: #daa520;
+}
+
+#footer-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer-ul li {
+    display: inline;
+    padding-right: 0.75rem;
+}
+
+a {
+    color: #38785e;
+    text-decoration: none;
+}
+
+button:active {
+    background-color: #38785e;
+}
+
+button:focus {
+    background-color: #38785e;
+}
+
+@media only screen and (max-width: 30rem) {
+    .dynamic-content img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 30rem) {
+    #mast-heading {
+        font-size: 2rem;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    .dynamic-content {
+        overflow: auto;
+    }
+
+    .dynamic-content img {
+        width: 25%;
+        float: left;
+        margin-right: 1rem;
+    }
+    
+}
+
+@media only screen and (min-width: 60rem) {
+    body {
+        width: 60rem;
+        margin: 0 auto;
+    }
+}
+
+
+
